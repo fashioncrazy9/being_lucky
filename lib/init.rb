@@ -1,0 +1,5 @@
+require 'forwardable'
+require_relative 'being_lucky'
+require_relative 'game/die'
+require_relative 'game/roll'
+require_relative 'game/calculator'

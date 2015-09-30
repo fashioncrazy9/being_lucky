@@ -1,4 +1,3 @@
-require 'game'
 RSpec.describe BeingLucky do
   subject { BeingLucky.new(dice) }
   let(:dice) { 5 }

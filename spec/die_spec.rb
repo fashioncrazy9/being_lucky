@@ -1,7 +1,4 @@
-require 'game'
-
 RSpec.describe Die do
-
   subject { Die }
 
   describe ".roll" do

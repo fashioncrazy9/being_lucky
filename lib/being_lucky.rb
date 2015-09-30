@@ -6,8 +6,12 @@ class BeingLucky
     @roll = Roll.new(dice)
   end
 
+  def result
+    roll.result
+  end
+
   def score
-    Calculator.new(roll.result).calc
+    Calculator.new(result).calc
   end
 
 end

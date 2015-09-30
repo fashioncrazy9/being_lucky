@@ -1,5 +1,3 @@
-require 'game'
-
 RSpec.describe Calculator do
   subject { Calculator.new(result) }
   let(:result) { Roll::Result.new(roll) }

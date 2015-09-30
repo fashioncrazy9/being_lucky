@@ -1,10 +1,7 @@
-require 'game'
-
 RSpec.describe Roll do
   subject { Roll.new }
 
   it { expect(subject.result).to include(1..6) }
-
   it { expect(subject.result).to respond_to(:triplet) }
   it { expect(subject.result).to respond_to(:has_triplets?) }
   it { expect(subject.result).to respond_to(:remove_triplet!) }
