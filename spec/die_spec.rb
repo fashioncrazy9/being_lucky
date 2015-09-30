@@ -2,11 +2,9 @@ require 'game'
 
 RSpec.describe Die do
 
-  subject { Die.new }
+  subject { Die }
 
-  it { expect(subject).to_not be(nil) }
-
-  describe "#roll" do
+  describe ".roll" do
     context 'random' do
       it { expect(subject.roll).to be_between(1, 6) }
     end
